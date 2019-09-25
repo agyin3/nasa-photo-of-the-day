@@ -4,8 +4,8 @@ export default function ImageCard(props) {
 
     return (
         <div>
+            <img className="img" src = {props.src} alt = {props.alt}></img>
             <h2>{props.title}</h2>
-            <img src = {props.src} alt = {props.alt}></img>
             <p>{props.description}</p>
         </div>
     );
