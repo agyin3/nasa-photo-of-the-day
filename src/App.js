@@ -4,7 +4,7 @@ import ImageData from '../src/components/ImageData';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App App-header">
       <h1>
         NASA Photo Of The Day
       </h1>
